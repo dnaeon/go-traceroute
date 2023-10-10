@@ -45,6 +45,18 @@ Also, make sure to check the [examples](./examples) directory from
 this repository, which provides ready-to-run programs using the
 `go-traceroute` package.
 
+Run a trace to a given host.
+
+``` shell
+go run examples/traceroute/main.go google.com
+```
+
+Generate the Dot representation of a trace.
+
+``` shell
+go run examples/traceroute-dot/main.go google.com
+```
+
 ## License
 
 `go-traceroute` is Open Source and licensed under the
